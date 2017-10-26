@@ -23,7 +23,7 @@ select * from student order by class desc;
 select * from score order by cno asc,degree desc;
 
 #查询“95031”班的学生人数。
-select count(*) from student where class='95031';
+`select count(*) from student where class='95031';`
 
 #查询Score表中的最高分的学生学号和课程号。
 #先获得最高分再查找
@@ -33,7 +33,7 @@ select sno,cno from score where degree = (select max(degree) from score);
 select avg(degree) from score where cno='3-105';
 
 #查询Score表中至少有5名学生选修的并以3开头的课程的平均分数。
-select cno,avg(degree) from score 
+select cno,avg(degree) from score
 where
 cno like '3%'
 group by cno having count(sno)>=5;
@@ -59,10 +59,8 @@ select a.sname,b.cname,c.degree from student as a inner join (course as b,score 
 #17、查询“95033”班所选课程的平均分。
 select avg(degree) from student a inner join score b on a.sno=b.sno where a.class='95033';
 
-#19、查询选修“3-105”课程的成绩高于“109”号同学成绩的所有同学的记录。
+# 19、查询选修“3-105”课程的成绩高于“109”号同学成绩的所有同学的记录。
 select a.* from score a where a.cno='3-105' and a.degree>(select degree from score b where b.sno='109' and b.cno='3-105');
 
 #20、查询score中选学一门以上课程的同学中分数为非最高分成绩的记录。
 select * from score a where a.sno in (select b.sno from score b group by b.sno having count(*)>1);
-
-
