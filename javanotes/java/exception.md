@@ -6,9 +6,16 @@
 ## finally块不会被执行的情况
 
 * 程序进入try块之前就出现异常时，会直接结束（**finally块一定执行是指从try代码块出来才一定会执行相应的finally代码块。**）
-* 在finally语句块中发生了异常。
+
 * 在前面的代码中用了System.exit()退出程序。
+    System.exit(int) 等价于 Runtime.getRuntime().exit(int) ，也就是说调用的是Runtime.exit(int) 方法。
+    Runtime.exit(int) 方法中，一开始会先看当前是否由激活的SecurityManager，如果有则会调用其 SecurityManager.checkExit(int) 方法。该方法的本意是检查程序是否有权限以传入的int status值调用 exit(int) ，如果有权限则什么都不做，否则应该抛出SecurityException。
+
+* 在finally语句块中发生了异常。
+    编译期间就会提示unreachable statement
+
 * 程序所在的线程死亡。
+
 * 关闭CPU。
 
 # 抛出异常的类型
