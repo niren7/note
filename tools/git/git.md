@@ -74,6 +74,7 @@ git checkout -- 文件名 取消修改，其中 -- 很重要，没有这个就�
 
 创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：
 
+
 ssh-keygen -t rsa –C “你的邮箱地址”
 
 第二步：登录github,打开” settings”中的SSH Keys页面，然后点击“Add SSH Key”,填上任意title，在Key文本框里黏贴id_rsa.pub文件的内容。
