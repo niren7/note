@@ -18,6 +18,7 @@ public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode prevNode = null;
         while(head != null) {
+            //保存要后移到的那个节点
             ListNode temp = head.next;
             //将指针反向
             head.next = prevNode;
