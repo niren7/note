@@ -46,8 +46,29 @@ public class AddTwoNumbersTest {
 
         AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
         utils.printList(addTwoNumbers.addTwoNumbers(node1,node5));
+    }
 
-    } 
+    @Test
+    public void testAddTwoNumbers1() throws Exception {
+        ListNode node1 = new ListNode(5);
+        ListNode node2 = new ListNode(6);
+        ListNode node3 = new ListNode(7);
+        ListNode node4 = new ListNode(8);
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+
+        ListNode node5 = new ListNode(8);
+        ListNode node6 = new ListNode(6);
+        ListNode node7 = new ListNode(7);
+        ListNode node8 = new ListNode(4);
+        node5.next = node6;
+        node6.next = node7;
+        node7.next = node8;
+
+        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+        utils.printList(addTwoNumbers.addTwoNumbers(node1,node5));
+    }
 
 
 } 
