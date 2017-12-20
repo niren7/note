@@ -1,7 +1,5 @@
 package linkedlist;
 
-import java.util.LinkedList;
-
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         ListNode middleNode = getMiddle(head);

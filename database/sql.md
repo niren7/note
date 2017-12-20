@@ -1,6 +1,12 @@
 # sql
 
 
+## sql
+
+`SELECT IFNULL((SELECT MAX(GROUP_ID) FROM rc_car_base_data) + 1,1)`
+
+取最大值加1
+
 
 ## 超过3个表禁止join
 

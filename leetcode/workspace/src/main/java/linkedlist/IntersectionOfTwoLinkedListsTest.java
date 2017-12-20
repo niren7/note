@@ -1,6 +1,5 @@
 package linkedlist;
 
-import linkedlist.ListNode;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 

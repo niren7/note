@@ -1,8 +1,5 @@
 package linkedlist;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Given a (singly) linked list with head node root, write a function to split the linked list into k consecutive linked list "parts".
  *
