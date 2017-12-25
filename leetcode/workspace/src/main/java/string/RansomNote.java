@@ -19,7 +19,16 @@ package string;
  */
 public class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
-
+        int[] charAmount = new int[26];
+        for(char c : magazine.toCharArray()) {
+            charAmount[c - 'a']++;
+        }
+        for(char c : ransomNote.toCharArray()) {
+            if(--charAmount[c - 'a'] < 0){
+                return false;
+            }
+        }
+        return true;
     }
 }
 
