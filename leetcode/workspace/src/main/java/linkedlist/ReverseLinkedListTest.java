@@ -43,7 +43,7 @@ public void testReverseList2() throws Exception {
 
 /** 
 * 
-* Method: reverseListByRecursion(ListNode head, ListNode prevNode) 
+* Method: reverseListByRecursion(data.ListNode head, data.ListNode prevNode)
 * 
 */ 
 @Test

@@ -23,7 +23,7 @@ public void after() throws Exception {
 
 /** 
 * 
-* Method: mergeTwoLists(ListNode l1, ListNode l2) 
+* Method: mergeTwoLists(data.ListNode l1, data.ListNode l2)
 * 
 */ 
 @Test

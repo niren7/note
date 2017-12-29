@@ -22,7 +22,7 @@ public class AddTwoNumbersTest {
 
     /** 
     * 
-    * Method: addTwoNumbers(ListNode l1, ListNode l2) 
+    * Method: addTwoNumbers(data.ListNode l1, data.ListNode l2)
     * 
     */ 
     @Test

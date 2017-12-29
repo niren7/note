@@ -10,8 +10,8 @@ public class ConvertSortedListToBinarySearchTree {
         return null;
     }
     private TreeNode toBST(ListNode head,ListNode tail) {
-        /*ListNode slow = head;
-        ListNode fast = head;
+        /*data.ListNode slow = head;
+        data.ListNode fast = head;
         if(head == null) {
             return null;
         }
@@ -19,7 +19,7 @@ public class ConvertSortedListToBinarySearchTree {
             slow = slow.next;
             fast = fast.next.next;
         }
-        TreeNode tNode = new TreeNode(slow.val);
+        data.TreeNode tNode = new data.TreeNode(slow.val);
         tNode.left = toBST(head,slow);
         tNode.right = toBST(slow.next,tail);
         return  tNode;*/

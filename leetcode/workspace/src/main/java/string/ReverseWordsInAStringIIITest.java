@@ -1,9 +1,8 @@
 package string;
 
-import org.junit.Test; 
-import org.junit.Before; 
 import org.junit.After;
-import string.ReverseWordsInAStringIII;
+import org.junit.Before;
+import org.junit.Test;
 
 /** 
 * ReverseWordsInAStringIII Tester. 

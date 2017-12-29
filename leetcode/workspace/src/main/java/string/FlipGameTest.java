@@ -1,9 +1,8 @@
 package string;
 
-import org.junit.Test; 
-import org.junit.Before; 
 import org.junit.After;
-import string.FlipGame;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.List;
 

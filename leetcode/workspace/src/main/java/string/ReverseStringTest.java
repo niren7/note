@@ -1,10 +1,8 @@
 package string;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.junit.Before; 
 import org.junit.After;
-import string.ReverseString;
+import org.junit.Before;
+import org.junit.Test;
 
 /** 
 * ReverseString Tester. 

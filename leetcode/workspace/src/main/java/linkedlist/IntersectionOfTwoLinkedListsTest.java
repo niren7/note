@@ -22,7 +22,7 @@ public void after() throws Exception {
 
 /** 
 * 
-* Method: getIntersectionNode(ListNode headA, ListNode headB) 
+* Method: getIntersectionNode(data.ListNode headA, data.ListNode headB)
 * 
 */ 
 @Test

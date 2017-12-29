@@ -1,10 +1,9 @@
 package string;
 
-import org.junit.Test; 
-import org.junit.Before; 
 import org.junit.After;
-import string.ConstructStringFromBinaryTree;
-import string.TreeNode;
+import org.junit.Before;
+import org.junit.Test;
+
 
 /** 
 * ConstructStringFromBinaryTree Tester. 
@@ -24,7 +23,7 @@ public class ConstructStringFromBinaryTreeTest {
 
     /** 
     * 
-    * Method: tree2str(TreeNode t) 
+    * Method: tree2str(data.TreeNode t)
     * 
     */ 
     @Test
