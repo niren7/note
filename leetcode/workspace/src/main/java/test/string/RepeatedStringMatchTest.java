@@ -3,7 +3,7 @@ package test.string;
 import org.junit.Test; 
 import org.junit.Before; 
 import org.junit.After;
-import string.RepeatedStringMatch;
+import string.easy.RepeatedStringMatch;
 
 /** 
 * RepeatedStringMatch Tester. 

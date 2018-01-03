@@ -3,7 +3,7 @@ package test.string;
 import org.junit.Test; 
 import org.junit.Before; 
 import org.junit.After;
-import string.ValidPalindrome;
+import string.easy.ValidPalindrome;
 
 /** 
 * ValidPalindrome Tester. 

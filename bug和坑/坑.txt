@@ -1,0 +1,4 @@
+校验时new了两个date,然后调试的时候两个date不一样从而使签名无效
+token签名硬编码需要输两次,导致可能改错,而且修改很麻烦
+悟空在线接口自身有问题,导致获取token失败,2017到2018出问题
+返回的是QueryResult,没有提供get方法,需要强转,然后有采用将QueryResult对象tostring然后多次substring来获取数据

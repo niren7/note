@@ -3,7 +3,7 @@ package test.string;
 import org.junit.Test; 
 import org.junit.Before; 
 import org.junit.After;
-import string.ImplementstrStr;
+import string.easy.ImplementstrStr;
 
 /** 
 * ImplementstrStr Tester. 
