@@ -1,3 +1,40 @@
+# 资料
+
+idea
+https://www.jetbrains.com/help/idea/maven.html
+maven官方中链接
+http://books.sonatype.com/mvnex-book/reference/
+
+# 创建多模块项目
+
+## 创建父模块
+
+File | New | Project
+
+Select **Maven** from the options on the left.
+
+Specify project's SDK (JDK) Click Next.
+
+specify
+   * GroupId - a package of a new project.
+   * ArtifactId - a name of your project.
+   * Version - a version of a new project. By default, this field is specified automatically.
+Click Next.
+
+创建父模块不使用archetype
+
+Specify the name and location settings. Click Finish.
+
+删除src文件夹
+
+## 创建子模块
+
+In the **Project** tool window, right-click your project (or in the main menu, click File) and select **New | Module** to add a sub project.
+
+然后用正常方式创建模块
+
+# 创建web项目
+
 http://zhuanlan.51cto.com/art/201706/542811.htm
 
 * 创建一个基于Maven的Java Web工程
