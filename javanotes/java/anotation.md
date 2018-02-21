@@ -11,12 +11,12 @@ String password() default "123456";
 
 支持的数据类型
 
-1.所有基本数据类型（int,float,boolean,byte,double,char,long,short)
-2.String类型
-3.Class类型
-4.enum类型
-**5.Annotation类型	实现嵌套配置**
-6.以上所有类型的一维数组
+1. 所有基本数据类型（int,float,boolean,byte,double,char,long,short)
+2. String类型
+3. Class类型
+4. enum类型
+5. **Annotation类型实现嵌套配置**
+6. 以上所有类型的一维数组
 
 # 元注解
 
