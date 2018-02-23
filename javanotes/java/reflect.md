@@ -1,5 +1,10 @@
 [TOC]
 
+# 资料
+
+http://www.sczyh30.com/posts/Java/java-reflection-1/#%E4%BA%8C%E3%80%81%E5%8F%8D%E5%B0%84%E7%9A%84%E4%B8%BB%E8%A6%81%E7%94%A8%E9%80%94
+
+
 # 概念
 
 当我们编写完一个 Java 项目之后，所有的 Java 文件都会被编译成一个.class 文件，这些 Class 对象承载了这个类型的父类、接口、构造函数、方法、属性等原始信息，这些 class 文件在程序运行时会被 ClassLoader 加载到虚拟机中。**当一个类被加载以后，Java 虚拟机就会在内存中自动产生一个 Class 对象。**我们通过 new 的形式创建对象实际上就是通过这些 Class 来创建，只是这个过程对于我们是不透明的而已。
@@ -42,41 +47,3 @@ Class c3 = Class.forName("com.imooc.reflect.Foo");
 # 反射时访问私有将Accessible设置为true
 
 Accessible熟悉**并不是**用来决定是否可以访问的，是用来判断是否需要进行安全检查，
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
