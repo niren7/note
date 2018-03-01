@@ -1,44 +1,12 @@
 [TOC]
 
-# 特点
+# 原理
 
-编译器是基于引用变量的声明类型而不是实际类型调用方法的，所以只能调用声明类型具有的方法
-
-method invocations allowed by the compiler are based solely on
-the declared type of the reference, regardless of the object type.
-
-**7java采用的是动态连接**
-
-java虚拟机知道对象的实际类型，实际调用的会是实际对象类型的方法，即会调用重载后的方法
-
-the Java Virtual Machine (JVM) at runtime knows what the object really is.
+见方法调用中的静态分配和动态分配
 
 
+# 字段是不参与多态的
 
+Java里，字段是不参与多态的。派生类如果声明了跟基类同名的字段，则两个字段在最终的实例中都会存在；派生类的版本只会在名字上遮盖（shadow / hide）掉基类字段的名字，而不会与基类字段合并或令其消失。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+测试了是按对象的静态类型类型来访问属性的(为什么?).
