@@ -1,5 +1,6 @@
 package producerandcomsumer.makecake;
 
+//可以通过继承阻塞队列接口下的实现类来简化Channel角色的构建
 public class Table {
     private final String[] buffer;
     private int count;
