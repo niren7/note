@@ -16,4 +16,5 @@ java.lang.Class实例并不负责记录真正的类元数据，而只是对VM内
 
 # 注意事项
 
-基本类型也有对应的Class对象,并且和它们对应的包装类的Class对象不是同一个
+基本类型也有对应的Class对象(https://www.zhihu.com/question/55857335/answer/146837989),
+并且和它们对应的包装类的Class对象不是同一个
